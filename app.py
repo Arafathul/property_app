@@ -2,14 +2,14 @@ import streamlit as st
 
 # Page configuration
 st.set_page_config(
-    page_title="Aqariya Properties",
+    page_title="Qudra Properties",
     page_icon="🏠",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 # Main title
-st.title("🏠 Aqariya Properties")
+st.title("🏠 Qudra Properties")
 st.markdown("---")
 
 # Sidebar
