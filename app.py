@@ -2,14 +2,14 @@ import streamlit as st
 
 # Page configuration
 st.set_page_config(
-    page_title="Property App",
+    page_title="Aqariya Properties",
     page_icon="🏠",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 # Main title
-st.title("🏠 Property Investment App")
+st.title("🏠 Aqariya Properties")
 st.markdown("---")
 
 # Sidebar
@@ -63,7 +63,7 @@ if page == "Home":
                 "Investment Purpose *",
                 ["Select...", "Primary Residence", "Rental Income", "Capital Appreciation", "Vacation Home", "Commercial Use", "Other"]
             )
-            
+
             timeline = st.selectbox(
                 "Purchase Timeline *",
                 ["Select...", "Immediately (0-3 months)", "Short-term (3-6 months)", "Medium-term (6-12 months)", "Long-term (12+ months)", "Just Exploring"]
